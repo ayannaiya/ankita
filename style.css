@@ -1,0 +1,13 @@
+td{
+    border: 2px solid black;
+}
+
+img {
+  border-radius: 8px;
+  filter: grayscale(100%);
+  transition: filter 2s ease;
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
